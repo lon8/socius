@@ -1,0 +1,40 @@
+{
+  "name": "socius",
+  "version": "1.0.0",
+  "description": "site for articles",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lon8/socius.git"
+  },
+  "keywords": [
+    "site",
+    "articles",
+    "education"
+  ],
+  "author": "lon8",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lon8/socius/issues"
+  },
+  "homepage": "https://github.com/lon8/socius#readme",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

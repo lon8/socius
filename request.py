@@ -1,5 +1,15 @@
-import requests
+from abc import ABC, abstractmethod
 
-req = requests.get('http://127.0.0.1:8000/')
+class Piece(ABC):
+    @abstractmethod
+    def move(self):
+        pass
+    
+class Queen(Piece):
+    def move(self):
+        print('Ход ферзя')
+        
+a = Piece()
+b = Queen()
 
-print(req.text)
+a.move(), b.move()
